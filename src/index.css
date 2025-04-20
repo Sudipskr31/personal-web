@@ -1,14 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
+@import "tailwindcss/utilities";
 
-html,
-body {
-  height: 100%;
-  margin: 0;
+@layer utilities {
+  @keyframes arrow-mov {
+    from {
+      transform: translateX(-1px);
+    }
+    to {
+      transform: translateX(-5px);
+    }
+  }
+
+  .animate-arrow-mov {
+    animation: arrow-mov 1s ease-in-out infinite alternate;
+  }
 }
 
-#root {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+::selection {
+  background-color: #f0f0f0;
+  color: #000;
 }

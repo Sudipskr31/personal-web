@@ -1,24 +1,29 @@
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaSquareGithub } from "react-icons/fa6";
-import { FaGithubSquare } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
+import { FiGithub } from "react-icons/fi";
+import { TfiEmail } from "react-icons/tfi";
 
 const Hero = () => {
   return (
     <div className={"cursor-default relative"}>
       <h1
         className={
-          "flex items-center justify-between text-xl font-semibold text-white/85 py-6"
+          "flex items-center justify-between text-xl font-semibold text-white/85 py-6 "
         }
       >
         Sudip Sarkar
       </h1>
+      <a href="mailto:sudipskr321@gmail.com">
+        <h1 className={"text-white/90 absolute top-7 right-18 text-xl"}>
+          <TfiEmail />
+        </h1>
+      </a>
       <a
         href="https://x.com/Sudipskr321"
         target={"_blank"}
         rel={"noopener noreferrer"}
       >
-        <h1 className={"text-white/90 absolute top-7 right-2 text-2xl"}>
-          <FaSquareXTwitter />
+        <h1 className={"text-white/90 absolute top-7 right-2 text-xl"}>
+          <RiTwitterXFill />
         </h1>
       </a>
       <a
@@ -26,8 +31,8 @@ const Hero = () => {
         target={"_blank"}
         rel={"noopener noreferrer"}
       >
-        <h1 className={"text-white/90 absolute top-7 right-10 text-2xl"}>
-          <FaGithubSquare />
+        <h1 className={"text-white/90 absolute top-7 right-10 text-xl"}>
+          <FiGithub />
         </h1>
       </a>
       <p className={"font-light text-white/80"}>
