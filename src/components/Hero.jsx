@@ -1,17 +1,20 @@
 import { RiTwitterXFill } from "react-icons/ri";
 import { FiGithub } from "react-icons/fi";
 import { TfiEmail } from "react-icons/tfi";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
     <div className={"cursor-default relative"}>
-      <h1
-        className={
-          "flex items-center justify-between text-xl font-semibold text-white/85 py-6 "
-        }
-      >
-        Sudip Sarkar
-      </h1>
+      <Link to={"/"}>
+        <h1
+          className={
+            "flex items-center justify-between text-xl font-semibold text-white/85 py-6 "
+          }
+        >
+          Sudip Sarkar
+        </h1>
+      </Link>
       <a href="mailto:sudipskr321@gmail.com">
         <h1 className={"text-white/90 absolute top-7 right-18 text-xl"}>
           <TfiEmail />

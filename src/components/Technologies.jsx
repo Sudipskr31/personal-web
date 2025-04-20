@@ -22,31 +22,31 @@ const Technologies = () => {
           }
         >
           <h1 className={"flex items-center gap-1 font-light text-white/85"}>
-            <FaReact className={"text-white text-lg"} /> React
+            <FaReact className={"text-white text-2xl"} /> React
           </h1>
           <h1 className={"flex items-center gap-1 font-light text-white/85"}>
-            <RiTailwindCssFill className={"text-white text-lg"} /> Tailwind CSS
+            <RiTailwindCssFill className={"text-white text-2xl"} /> Tailwind CSS
           </h1>
           <h1 className={"flex items-center gap-1 font-light text-white/85"}>
-            <FaCss3 className={"text-white text-lg"} /> CSS3
+            <FaCss3 className={"text-white text-2xl"} /> CSS3
           </h1>
           <h1 className={"flex items-center gap-1 font-light text-white/85"}>
-            <FaHtml5 className={"text-white text-lg"} /> HTML5
+            <FaHtml5 className={"text-white text-2xl"} /> HTML5
           </h1>
           <h1 className={"flex items-center gap-1 font-light text-white/85"}>
-            <IoLogoJavascript className={"text-white text-lg"} /> JavaScript
+            <IoLogoJavascript className={"text-white text-2xl"} /> JavaScript
           </h1>
           <h1 className={"flex items-center gap-1 font-light text-white/85"}>
-            <TbBrandVite className={"text-white text-lg"} /> Vite
+            <TbBrandVite className={"text-white text-2xl"} /> Vite
           </h1>
           <h1 className={"flex items-center gap-1 font-light text-white/85"}>
-            <FaGithub className={"text-white text-lg"} /> Github
+            <FaGithub className={"text-white text-2xl"} /> Github
           </h1>
           <h1 className={"flex items-center gap-1 font-light text-white/85"}>
-            <FaGitAlt className={"text-white text-lg"} /> Git
+            <FaGitAlt className={"text-white text-2xl"} /> Git
           </h1>
           <h1 className={"flex items-center gap-1 mr-5 font-light text-white/85"}>
-            <IoLogoFirebase className={"text-white text-lg"} /> Firebase
+            <IoLogoFirebase className={"text-white text-2xl"} /> Firebase
           </h1>
         </div>
       </Marquee>

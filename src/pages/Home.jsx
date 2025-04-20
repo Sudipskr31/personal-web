@@ -3,7 +3,6 @@ import Technologies from "../components/Technologies.jsx";
 import Projects from "../components/Projects.jsx";
 import Blogs from "../components/Blogs.jsx";
 import Experience from "../components/Experience.jsx";
-import Footer from "../components/Footer.jsx";
 
 const Home = () => {
   return (
@@ -13,8 +12,7 @@ const Home = () => {
         <Technologies />
         <Experience />
         <Projects />
-        <Blogs />
-        <Footer />
+        <Blogs limit={4} />
       </main>
     </div>
   );
