@@ -24,7 +24,7 @@ const Blogs = ({ limit }) => {
     {
       id: 4,
       title: "Building REST APIs with Node.js",
-      description: "Learn how to build RESTful APIs using Node.js and Express.",
+      description: "Learn how to build RESTFUL APIs using Node.js and Express.",
       link: "https://example.com/nodejs-rest-api",
     },
     {
