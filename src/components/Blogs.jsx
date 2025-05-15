@@ -69,7 +69,7 @@ const Blogs = ({ limit }) => {
             >
               {blog.title}
             </a>
-            <p className={"text-sm text-white/70"}>{blog.description}</p>
+            <p className={"text-sm text-white/75"}>{blog.description}</p>
           </li>
         ))}
       </ul>
