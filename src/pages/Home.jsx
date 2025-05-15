@@ -12,7 +12,7 @@ const Home = () => {
         <Technologies />
         <Experience />
         <Projects />
-        <Blogs limit={4} />
+        <Blogs limit={5} />
       </main>
     </div>
   );

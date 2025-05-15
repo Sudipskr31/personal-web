@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { TbBrandVite } from "react-icons/tb";
 import { IoLogoFirebase } from "react-icons/io5";
+import { SiTypescript } from "react-icons/si";
 import Marquee from "react-fast-marquee";
 
 const Technologies = () => {
@@ -15,7 +16,13 @@ const Technologies = () => {
       <h1 className={"text-xl font-medium text-white/85 py-6 cursor-default"}>
         Technologies
       </h1>
-      <Marquee speed={50} gradient={true} gradientWidth={50} gradientColor={"black"} pauseOnHover={true}>
+      <Marquee
+        speed={50}
+        gradient={true}
+        gradientWidth={50}
+        gradientColor={"black"}
+        pauseOnHover={true}
+      >
         <div
           className={
             "flex justify-evenly space-x-5 border-1 pt-2 flex-wrap whitespace-nowrap pb-4 cursor-default"
@@ -45,13 +52,18 @@ const Technologies = () => {
           <h1 className={"flex items-center gap-1 font-light text-white/85"}>
             <FaGitAlt className={"text-white text-2xl"} /> Git
           </h1>
-          <h1 className={"flex items-center gap-1 mr-5 font-light text-white/85"}>
+          <h1 className={"flex items-center gap-1 font-light text-white/85"}>
+            <SiTypescript className={"text-white text-2xl"} /> TypeScript
+          </h1>
+          <h1
+            className={"flex items-center gap-1 mr-5 font-light text-white/85"}
+          >
             <IoLogoFirebase className={"text-white text-2xl"} /> Firebase
           </h1>
         </div>
       </Marquee>
     </>
   );
-}
+};
 
 export default Technologies;

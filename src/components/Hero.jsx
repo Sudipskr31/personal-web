@@ -48,7 +48,7 @@ const Hero = () => {
           rel="noopener noreferrer"
         >
           React.js
-        </a>
+        </a> if anyone is interested in working togather on any project just get in touch with me.
       </p>
     </div>
   );
